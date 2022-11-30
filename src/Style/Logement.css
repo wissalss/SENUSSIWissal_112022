@@ -1,0 +1,207 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
+.navig {
+    width: 90%;
+    height: 415px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.titre-nom {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.titre{
+    width: 70%;
+}
+.titre h2{
+    color: #ff6060;
+    font-size: 36px;
+    margin-top: 5px;
+}
+.titre p {
+    color: #ff6060;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.nom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+.nom h3 {
+    text-align: right;
+    width: 90px;
+    height: 52px;
+    margin-top: 10px;
+    font-size: 18px ;
+    color: #ff6060;
+}
+.nom img {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.tag-eval {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 90%;
+}
+.tags {
+    display: flex;
+    width: 50%;
+}
+.etoiles {
+    font-family: "Font Awesome 6 Free";
+    color: #ff6060;
+    text-align: right;
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+.etoiles::before {
+    font-weight: bold;
+}
+.une::before{
+    content:"\f005";
+}
+.une::after{
+    content:"\f005\f005\f005\f005";
+}
+.deux::before{
+    content:"\f005\f005";
+}
+.deux::after{
+    content:"\f005\f005\f005";
+}
+.trois::before{
+    content:"\f005\f005\f005";
+}
+.trois::after{
+    content:"\f005\f005";
+}
+.quatre::before{
+    content:"\f005\f005\f005\f005";
+}
+.quatre::after{
+    content:"\f005";
+}
+.cinq::before{
+    content:"\f005\f005\f005\f005\f005";
+}
+.cinq::after{
+    content:"";
+}
+
+.une::after,.deux::after, .trois::after, .quatre::after{
+    color: #e3e3e3;
+    font-weight: bold;
+}
+
+.descript-equip {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.description, .equipements {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.equipements ul {
+    list-style-type: none;
+}
+.description p, .equipements ul{
+    background-color: #f6f6f6;
+    font-size: 18px;
+    color: #ff6060;
+    height: 240px;
+    padding: 10px 30px 10px 30px;
+}
+
+@media screen and (max-width:414px) {
+    .ficheLogement {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .navig {
+        width: 88%;
+        height: 255px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .titre-nom {
+        flex-direction: column;
+        width: 88%;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .titre h2{
+        font-size: 20px;
+        width: 325px;
+        height: 50px;
+        margin-right: 0;
+    }
+    .tag-eval{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .tags{
+        order: -1;
+        width: 100%;
+        height: 50px;
+        flex-wrap: wrap;
+    }
+    .etoiles{
+        order: 2;
+        text-align: left;
+        width: 50%;
+        font-size: 18px;
+        margin-top: 35px;
+    }
+    .nom{
+        position: absolute;
+        justify-content: flex-end;
+        order: 3;
+        font-size: 12px;
+        margin-left: 218px;
+        width: 30%;
+        margin-top: 170px;
+    }
+    .nom img{
+        width: 50px;
+        height: 50px;
+    }
+    .nom h3{
+        margin-right: 5px;
+        font-size: 14px;
+    }
+    .descript-equip {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 25px;
+        flex-direction: column;
+    }
+    .description, .equipements {
+        width: 88%;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .description p, .equipements ul{
+        height: auto;
+        font-size: 12px;
+    }
+}

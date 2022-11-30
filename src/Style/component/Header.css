@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 68px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    height: 34px;
+}
+a{
+    color: #ff6060;
+    font-size: 24px;
+    text-decoration: none;
+}
+.active {
+    text-decoration-line: underline;
+}
+@media screen and (max-width:414px) {
+    header {
+        width: 88%;
+        height: 47px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    header img {
+        width: auto;
+        height: 100%;
+    }
+    a {
+        font-size: 12px;
+    }
+    nav {
+        width: 40%;
+        align-items: center;
+    }
+}
+

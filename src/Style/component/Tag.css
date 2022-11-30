@@ -1,0 +1,21 @@
+.tag  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #ff6060;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 25px;
+}
+@media screen and (max-width:414px) {}
+.tag {
+    font-size: 10px;
+    width: 108px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    border-radius: 5px;
+
+}
