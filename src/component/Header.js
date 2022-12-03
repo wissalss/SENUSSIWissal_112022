@@ -12,7 +12,7 @@ function Header() {
                     <NavLink to="/" className={(Home) => Home.isActive ? "active" : "" }>
                         Accueil</NavLink>
                     <NavLink to="/Apropos" className={(Apropos) => Apropos.isActive ? "active" : ""}>
-                        À Propos</NavLink>
+                        A Propos</NavLink>
                 </nav>
             </header>
         </div>

@@ -3,21 +3,22 @@ import "../Style/component/Carroussel.css"
 import suivant from "../assets/suivant.png"
 import precedent from "../assets/precedent.png"
 
-let index = 0
 
 function Carroussel({ pictures }) {
-    const [, setNewImg] = useState(0)   //useState, représente la valeur de base, 0
+    const [index, setNewImg] = useState(0)   //useState, représente la valeur de base, 0
                                         //setNewImg, est la fonction que l'on appelle et qui modifie cette valeur
     
     function btnsuivant() {
-        index++                     
-        if (index >= pictures.length) index = 0
-        setNewImg(index)
+        var i = index;
+        i++                     
+        if (i >= pictures.length) i = 0
+        setNewImg(i)
     }
     function btnprecedent() {
-        index--
-        if (index < 0) index = pictures.length - 1
-        setNewImg(index)
+        var i = index;
+        i--
+        if (i < 0) i = pictures.length - 1
+        setNewImg(i)
     }
 
     function navigation() {

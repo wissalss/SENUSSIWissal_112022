@@ -29,7 +29,7 @@
     line-height: 20px;
     color: #ffffff;
 }
-@media screen and (max-width:414px) {
+@media screen and (max-width:768px) {
     .gallery,.gallery img,.filtreGallery{
         width: 335px;
         height: 200px;

@@ -21,7 +21,7 @@ a{
 .active {
     text-decoration-line: underline;
 }
-@media screen and (max-width:414px) {
+@media screen and (max-width:768px) {
     header {
         width: 88%;
         height: 47px;

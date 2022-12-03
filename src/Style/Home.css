@@ -51,7 +51,7 @@
 .GalleryLogements::-webkit-scrollbar {
     display: none;
 }
-@media screen and (max-width:414px) {
+@media screen and (max-width:768px) {
     .Home {
         display: flex;
         flex-direction: column;

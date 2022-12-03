@@ -127,7 +127,7 @@
     padding: 10px 30px 10px 30px;
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:768px) {
     .ficheLogement {
         display: flex;
         flex-direction: column;

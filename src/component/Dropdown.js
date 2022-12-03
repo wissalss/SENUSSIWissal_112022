@@ -30,7 +30,7 @@ function tabEquipement(tab) {
     return (
         <ul>
             {tab.map((equipment) => (
-                <li>{equipment}</li>
+                <li key={equipment}>{equipment}</li>
             ))}
         </ul>
     )

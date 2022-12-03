@@ -21,3 +21,49 @@
 .Page404 h1, .Page404 span,.message-erreur {
     color: #ff6060;
 }
+
+@media (max-width:1370px) and (min-width:415px) {
+    .Page404 {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        height: 348px;
+    }  
+    .Page404 h1 {
+        font-size: 100px;
+    } 
+    .Page404 h5 {
+        font-size: 150px;
+    }
+    .Page404 span{
+        font-size: 18px;
+    }
+    .message-erreur{
+        font-size: 14px;
+        margin-top: 70px;
+    }
+}
+
+
+
+@media screen and (max-width:414px) {
+    .Page404 {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        height: 430px;
+    }   
+    .Page404 h1 {
+        font-size: 100px;
+    }
+    .Page404 h5{
+        font-size: 80px;
+    }
+    .Page404 span{
+        font-size: 18px;
+    }
+    .message-erreur{
+        font-size: 14px;
+        margin-top: 80px;
+    }
+}
